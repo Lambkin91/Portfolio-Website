@@ -1,0 +1,44 @@
+
+
+
+/*
+Colors used:
+Primary Color (Green): #2443C;
+Secondary Color (Red): #560A0A;
+Tertiary Color (Pink): #F0E5E5
+*/
+
+
+
+
+
+
+
+
+.button {
+  display: inline-block;
+  background-color: #2443c;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 0px;
+  border-bottom: 0px
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+
+.button.contact {
+  background-color: transparent;
+  color: #2443c;
+  border: 2px solid #2443c;
+}
+
+.button.contact:hover {
+  background-color: #2443c;
+  color: #ffffff;
+}
