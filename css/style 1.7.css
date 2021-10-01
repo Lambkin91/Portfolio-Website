@@ -1,0 +1,123 @@
+
+
+
+/*
+Colors used:
+Primary Color (Green): #2443C;
+Secondary Color (Red): #560A0A;
+Tertiary Color (Pink): #f0e5e5
+*/
+
+a {
+  color: #2443C;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #560A0A;
+}
+
+a:hover,
+a:focus {
+  color: #560A0A;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #f0e5e5;
+}
+
+
+.button {
+  display: inline-block;
+  background-color: #2443c;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #2443C;
+  transition: 0.2s opacity;
+}
+
+.button:visited {
+  background-color: #560A0A;
+  color: #ffffff;
+}
+
+.button:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.button:active {
+  opacity: 2;
+  text-decoration: none;
+}
+
+.button.contact {
+  background-color: transparent;
+  color: #2443c;
+  border: 2px solid #2443c;
+}
+
+.button.contact:hover {
+  background-color: #2443c;
+  color: #ffffff;
+}
+
+
+
+/* Layout styling */
+
+
+
+
+header {
+  background-color: #f0e5e5;
+  text-align: center;
+  padding: 10px 0;
+  margin: 10px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  border-bottom: 3px solid #2443c;
+
+
+  nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #f0e5e5;
+}
+}
+
+
+.container {
+  padding: 0 15px;
+}
+
+{
+  box-sizing: border-box;
+}
+
+
+
+.container {
+  max-width: 1200px;
+}
+
+.row {
+  margin: 25px 0;
+  }
+
+  #hero {
+  background-color: #2443C;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+  .logo {
+  max-width: 250px;
+}

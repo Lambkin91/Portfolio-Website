@@ -5,10 +5,12 @@
 Colors used:
 Primary Color (Green): #2443C;
 Secondary Color (Red): #560A0A;
-Tertiary Color (Pink): #F0E5E5
+Tertiary Color (Pink): #f0e5e5
 */
 
-
+header {
+  background-color: #f0e5e5;
+}
 
 
 
