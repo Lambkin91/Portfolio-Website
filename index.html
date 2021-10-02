@@ -3,25 +3,55 @@
 
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>Carina Obster UI/UX Designer Munich</title>
 </head>
 
 <!-- Header -->
 
 <body>
+{
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    background-color: #F0E5E5
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #2443C
+  }
+
+  h1, h2, h3, h4 {
+    line-height: 1.4;
+  }
+  h1 {
+    font-size: 2.75em;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 2.25em;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 1.75em;
+    font-weight: 400;
+  }
+  h4 {
+    font-size: 1.35em;
+    font-weight: 400;
+  }
   <header>
-    <div class="container">
-      <img src="img/logo.png" alt="Logo" />
+    <div>
+      <a href="index.html">Carina Obster</a>
       <nav>
-        <ul class="navigation">
-          <a href="#">Carina Obster</a>
-          <nav>
-            <ul>
-              <li><a href="index.html">Work</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </nav>
+        <ul>
+          <li><a href="index.html">Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
@@ -30,123 +60,121 @@
     <!-- Hero Section -->
     <div id="hero">
       <div class="container">
-        <h1>Hi, I'm Carina <span>a UI/UX designer from Munich.</span></h1 id="hero-section">
+        <h1>Hi, I'm Carina <span>a UI/UX designer from Munich.</span></h1>
         <p>I have a background in UX localization and writing. Now, I want to combine my UX writing skills, my development skills and my design skills to be able to accompany the UI/UX design process from start to finish. I’m currently available for
           both freelance and contract work in the Munich area or remotely.</p>
       </div>
     </div>
 
     <!-- Work/Projects -->
-    <div>
-      <div id="work">
-        <div class="container">
-          <h2>My Work</h2>
-          <div class="row">
-            <picture>
-              <source srcset="img/cherryfunk/thumbnail_cherryfunk@1.jpg" media="(max-width:767px)">
-              <img src="img/cherryfunk/thumbnail_cherryfunk@2.jpg.jpg" alt="CherryFunk Music App">
-            </picture>
-          </div>
-          <div>
-            <h3>CherryFunk</h3>
-            <p>
-              My first project CherryFunk enabled me to learn the basics of the UI design process, using the
-              software Adobe XD. I defined an MVP, did some competitor research and created my own icon set.
-            </p>
-            <h4>Skills and Tools:</h4>
-            <ul>
-              <li>Doing competitor research</li>
-              <li>Defining an MVP</li>
-              <li>Creating wireframes</li>
-              <li>Creating logos</li>
-              <li>Adobe XD</li>
-            </ul>
-            <a href="#">Read more</a>
-          </div>
+    <div id="work">
+      <div class="container">
+        <h2>My Work</h2>
+        <div class="row">
+          <picture>
+            <source srcset="img/cherryfunk/thumbnail_cherryfunk@1.jpg" media="(max-width:767px)">
+            <img src="img/cherryfunk/thumbnail_cherryfunk@2.jpg.jpg" alt="CherryFunk Music App">
+          </picture>
         </div>
-
-        <!-- Project #2 -->
         <div>
-          <div>
-            <picture>
-              <source srcset="img/booktalk/thumbnail_booktalk@1.jpg" media="(max-width:767px)">
-              <img src="img/booktalk/thumbnail_booktalk@2" alt="BookTalk Social Book App">
-            </picture>
-          </div>
-          <div>
-            <h3>BookTalk</h3>
-            <p>
-              For my project BookTalk, I did some UX research (user interviews, user personas, user testing),
-              followed by an in-depth UI design phase based on a styleguide.
-            </p>
-            <h4>Skills and Tools:</h4>
-            <ul>
-              <li>Conducting user interviews</li>
-              <li>Creating user personas</li>
-              <li>Conducting user tests</li>
-              <li>Creating wireframes</li>
-              <li>Creating a styleguide</li>
-              <li>Figma</li>
-              <li>InVision</li>
-            </ul>
-            <a href="#">Read more</a>
-          </div>
+          <h3>CherryFunk</h3>
+          <p>
+            My first project CherryFunk enabled me to learn the basics of the UI design process, using the
+            software Adobe XD. I defined an MVP, did some competitor research and created my own icon set.
+          </p>
+          <h4>Skills and Tools:</h4>
+          <ul>
+            <li>Doing competitor research</li>
+            <li>Defining an MVP</li>
+            <li>Creating wireframes</li>
+            <li>Creating logos</li>
+            <li>Adobe XD</li>
+          </ul>
+          <a href="#">Read more</a>
         </div>
+      </div>
 
-        <!-- Project #3 -->
+      <!-- Project #2 -->
+      <div>
         <div>
-          <div>
-            <picture>
-              <source srcset="img/anubiscoin/thumbnail_anubiscoin@1.jpg" media="(max-width:767px)">
-              <img src="img/anubiscoin/thumbnail_anubiscoin@2.jpg" alt="AnubisCoin Crypto App">
-            </picture>
-          </div>
-          <div>
-            <h3>AnubisCoin</h3>
-            <p>
-              My project AnubisCoin required me to create a native iOS as well as an Android app version. Again, I
-              implemented key techniques like wireframing and user testing, working with Figma.
-            </p>
-            <h4>Skills and Tools:</h4>
-            <ul>
-              <li>Working with native guidelines</li>
-              <li>Wireframing</li>
-              <li>Conducting user tests</li>
-              <li>Figma</li>
-            </ul>
-            <a href="#">Read more</a>
-          </div>
+          <picture>
+            <source srcset="img/booktalk/thumbnail_booktalk@1.jpg" media="(max-width:767px)">
+            <img src="img/booktalk/thumbnail_booktalk@2" alt="BookTalk Social Book App">
+          </picture>
         </div>
-
-        <!-- Project #4 -->
         <div>
-          <div>
-            <picture>
-              <source srcset="img/portaltotheeast/portaltotheeast@1.jpg" media="(max-width:767px)">
-              <img src="img/portaltotheeast/portaltotheeast@1.jpg" alt="PortaltotheEast Asia Store App">
-            </picture>
-          </div>
-          <div>
-            <h3>Portal to the East</h3>
-            <p>
-              When I designed Portal to the East with Figma, I was already quite familiar with the UI design process
-              and elements like creating a styleguide and wireframes. I was able to take my skills to another level and
-              include important requirements like accessibility and reduced design.
-            </p>
-            <h4>Skills and Tools:</h4>
-            <ul>
-              <li>Wireframing</li>
-              <li>Creating a styleguide</li>
-              <li>Creating a user flow</li>
-              <li>Figma</li>
-            </ul>
-            <a href="#">Read more</a>
-          </div>
+          <h3>BookTalk</h3>
+          <p>
+            For my project BookTalk, I did some UX research (user interviews, user personas, user testing),
+            followed by an in-depth UI design phase based on a styleguide.
+          </p>
+          <h4>Skills and Tools:</h4>
+          <ul>
+            <li>Conducting user interviews</li>
+            <li>Creating user personas</li>
+            <li>Conducting user tests</li>
+            <li>Creating wireframes</li>
+            <li>Creating a styleguide</li>
+            <li>Figma</li>
+            <li>InVision</li>
+          </ul>
+          <a href="#">Read more</a>
+        </div>
+      </div>
+
+      <!-- Project #3 -->
+      <div>
+        <div>
+          <picture>
+            <source srcset="img/anubiscoin/thumbnail_anubiscoin@1.jpg" media="(max-width:767px)">
+            <img src="img/anubiscoin/thumbnail_anubiscoin@2.jpg" alt="AnubisCoin Crypto App">
+          </picture>
+        </div>
+        <div>
+          <h3>AnubisCoin</h3>
+          <p>
+            My project AnubisCoin required me to create a native iOS as well as an Android app version. Again, I
+            implemented key techniques like wireframing and user testing, working with Figma.
+          </p>
+          <h4>Skills and Tools:</h4>
+          <ul>
+            <li>Working with native guidelines</li>
+            <li>Wireframing</li>
+            <li>Conducting user tests</li>
+            <li>Figma</li>
+          </ul>
+          <a href="#">Read more</a>
+        </div>
+      </div>
+
+      <!-- Project #4 -->
+      <div>
+        <div>
+          <picture>
+            <source srcset="img/portaltotheeast/portaltotheeast@1.jpg" media="(max-width:767px)">
+            <img src="img/portaltotheeast/portaltotheeast@1.jpg" alt="PortaltotheEast Asia Store App">
+          </picture>
+        </div>
+        <div>
+          <h3>Portal to the East</h3>
+          <p>
+            When I designed Portal to the East with Figma, I was already quite familiar with the UI design process
+            and elements like creating a styleguide and wireframes. I was able to take my skills to another level and
+            include important requirements like accessibility and reduced design.
+          </p>
+          <h4>Skills and Tools:</h4>
+          <ul>
+            <li>Wireframing</li>
+            <li>Creating a styleguide</li>
+            <li>Creating a user flow</li>
+            <li>Figma</li>
+          </ul>
+          <a href="#">Read more</a>
         </div>
       </div>
     </div>
-  </main>
 
+  </main>
 
   <!-- Footer -->
   <footer>
@@ -162,7 +190,7 @@
         Or just call me at: <a href="tel:+498989069611">+498989069611</a>
       </p>
       <div>
-        <a href="https://de.linkedin.com/in/carina-obster-5969b7219" target="_blank" </a>
+        <a href="https://de.linkedin.com/in/carina-obster-5969b7219" target="_blank">
           <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <style>
@@ -184,8 +212,7 @@
             </g>
           </svg>
         </a>
-        </a>
-        <a href="https://www.behance.net/carinaobster" target="_blank" </a>
+        <a href="https://www.behance.net/carinaobster" target="_blank">
           <svg height="6.82666in" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 6.82666 6.82666" width="6.82666in"
             xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <defs>
