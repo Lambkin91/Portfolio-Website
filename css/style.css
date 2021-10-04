@@ -4,17 +4,16 @@ Primary Color (Green): #2443C;
 Secondary Color (Red): #560A0A;
 Tertiary Color (Pink): #f0e5e5
 */
-header {
-  background-color: #f0e5e5;
-}
+
+body
 
 {
-    background-color: #F0E5E5
+    background-color: #F0E5E5;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.6;
-    color: #2443C
+    color: #24443C;
   }
 
   h1, h2, h3, h4 {
@@ -39,9 +38,33 @@ header {
     font-weight: 400;
   }
 
+
+  img {
+  width: 100%;
+}
+
+a {
+  color: #24443C;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #F0E5E5;
+}
+
+a:hover,
+a:focus {
+  color: #F0E5E5;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #560A0A;
+}
+
 .button {
   display: inline-block;
-  background-color: #2443c;
+  background-color: #24443C;
   color: #ffffff;
   font-weight: 400;
   padding: 10px;
@@ -56,11 +79,15 @@ header {
 
 .button.contact {
   background-color: transparent;
-  color: #2443c;
-  border: 2px solid #2443c;
+  color: #24443C;
+  border: 2px solid #24443C;
 }
 
 .button.contact:hover {
-  background-color: #2443c;
+  background-color: #24443C;
   color: #ffffff;
+}
+
+header {
+  background-color: #F0E5E5;
 }
