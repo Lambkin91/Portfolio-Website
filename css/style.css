@@ -9,6 +9,10 @@ Tertiary Color (Pink): #f0e5e5
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 1200px;
+}
+
 body {
   background-color: #F0E5E5;
   font-family: 'Raleway', sans-serif;
@@ -96,7 +100,7 @@ a:active {
   color: #ffffff;
 }
 
-
+/* Layout styling */
 
 
 
@@ -122,8 +126,7 @@ a:active {
   width: 100%;
 }
 
-.logo {
-  max-width: 150px;
+#hero h1 {
   text-align: center;
 }
 
@@ -135,11 +138,17 @@ header {
   padding-bottom: 15px;
   padding-left: 5px;
   margin: 10px;
+  border-bottom: 3px solid #2443C;
   position: fixed;
   width: 100%;
   -webkit-box-shadow: 7px 7px 24px 0px rgba(50, 50, 50, 0.36);
   - moz-box-shadow: 7px 7px 24px 0px rgba(50, 50, 50, 0.36);
   box-shadow: 7px 7px 24px 0px rgba(50, 50, 50, 0.36);
+}
+
+.logo {
+  max-width: 150px;
+  text-align: center;
 }
 
 nav>ul {
