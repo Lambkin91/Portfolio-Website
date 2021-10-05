@@ -5,42 +5,49 @@ Secondary Color (Red): #560A0A;
 Tertiary Color (Pink): #f0e5e5
 */
 
-body
+* {
+  box-sizing: border-box;
+}
 
-{
-    background-color: #F0E5E5;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.6;
-    color: #24443C;
-  }
+body {
+  background-color: #F0E5E5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #24443C;
+}
 
-  h1, h2, h3, h4 {
-    line-height: 1.4;
-  }
-  h1 {
-    font-size: 2.75em;
-    font-weight: 700;
-  }
+h1, h2, h3, h4 {
+  line-height: 1.4;
+  font-family: 'Berkshire Swash', cursive;
+}
 
-  h2 {
-    font-size: 2.25em;
-    font-weight: 700;
-  }
+h1 {
+  font-size: 2.75em;
+}
 
-  h3 {
-    font-size: 1.75em;
-    font-weight: 400;
-  }
-  h4 {
-    font-size: 1.35em;
-    font-weight: 400;
-  }
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
 
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
 
-  img {
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+
+img {
   width: 100%;
+}
+
+.logo {
+  font-family: 'Berkshire Swash', cursive;
 }
 
 a {
@@ -49,12 +56,12 @@ a {
 }
 
 a:visited {
-  color: #F0E5E5;
+  color: #24443C;
 }
 
 a:hover,
 a:focus {
-  color: #F0E5E5;
+  color: #560A0A;
   text-decoration: underline;
 }
 
@@ -69,11 +76,12 @@ a:active {
   font-weight: 400;
   padding: 10px;
   border-radius: 0px;
-  border-bottom: 0px transition: 0.2s opacity;
+  border-bottom: 0px;
+  transition: 0.2s background-color;
 }
 
 .button:hover {
-  opacity: 0.8;
+  background-color: #000;
   text-decoration: none;
 }
 
@@ -88,6 +96,56 @@ a:active {
   color: #ffffff;
 }
 
+
+
+
+
+.row {
+  margin: 25px 0;
+  padding: 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#work .row {
+  padding-bottom: 25px;
+
+#hero,
+#main {
+  background-color: #fffff;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.logo {
+  max-width: 150px;
+  text-align: center;
+}
+
 header {
   background-color: #F0E5E5;
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  margin: 10px;
+}
+
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
 }

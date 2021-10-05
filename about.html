@@ -14,8 +14,8 @@
 
 <body>
   <header>
-    <div>
-      <a href="#">Carina Obster</a>
+    <div class="container">
+      <a href="index.html" class="logo">Carina Obster</a>
       <nav>
         <ul>
           <li><a href="index.html">Work</a></li>
@@ -28,23 +28,23 @@
 
   <main>
     <!-- HEADING -->
-    <div>
+    <div class="container">
       <div>
         <h1>About</h1>
       </div>
     </div>
     <!-- Main content -->
     <div>
-      <div>
+      <div class="container">
         <!-- Profile Image -->
         <picture>
           <source srcset="img/carina-obster@1.jpg" media="(max-width:767px)">
           <img src="img/carina-obster@2.jpg" alt="Carina Obster">
         </picture>
         <!-- Container for columns -->
-        <div>
+        <div class="row">
           <!-- Column 1: Story -->
-          <div>
+          <div class="column">
             <h2>About me</h2>
             <p> Hi, I’m Carina, and I‘m a UI/UX designer with a background in UX localization and writing. I have localized
               several apps and have been working as a UI translator for Facebook and Instagram. I always focus on the best
@@ -58,15 +58,16 @@
               Another fun fact about me: I love Asia, especially China! Its language, aesthetics and tasty food always inspire me.
               I'm also doing freelance translations from Chinese to German.
             </p>
-            <a href="files/CV.pdf" target="_blank">Download My Resume</a>
+            <a href="files/CV.pdf" class="button" target="_blank">Download My Resume</a>
+
           </div>
           <!-- Column 2: Skills and Tools -->
-          <div>
+          <div class="column">
             <h2>Skills & Tools</h2>
             <!-- Subcolumns -->
-            <div>
+            <div class="column">
             <!-- Subcolumn 1: Skills -->
-            <div>
+            <div class="column">
               <h3>Skills</h3>
               <ul>
                 <li>Conducting user interviews</li>
@@ -81,7 +82,7 @@
               </ul>
             </div>
               <!-- Subcolumn 2: Tools -->
-              <div>
+              <div class="column">
                 <h3>Tools</h3>
                 <ul>
                   <li>Figma</li>
