@@ -128,13 +128,18 @@ a:active {
 }
 
 header {
-  background-color: #F0E5E5;
+  background-color: #560a0a;
   text-align: center;
   padding-top: 10px;
   padding-right: 5px;
   padding-bottom: 15px;
   padding-left: 5px;
   margin: 10px;
+  position: fixed;
+  width: 100%;
+  -webkit-box-shadow: 7px 7px 24px 0px rgba(50, 50, 50, 0.36);
+  - moz-box-shadow: 7px 7px 24px 0px rgba(50, 50, 50, 0.36);
+  box-shadow: 7px 7px 24px 0px rgba(50, 50, 50, 0.36);
 }
 
 nav>ul {
