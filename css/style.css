@@ -14,7 +14,7 @@ Tertiary Color (Pink): #f0e5e5
 }
 
 body {
-  background-color: #F0E5E5;
+  background-color: #Fffff;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -117,6 +117,7 @@ a:active {
 
 #work .row {
   padding-bottom: 25px;
+}
 
 #hero,
 #main {
@@ -131,7 +132,7 @@ a:active {
 }
 
 header {
-  background-color: #560a0a;
+  background-color: #f0e5e5;
   text-align: center;
   padding-top: 10px;
   padding-right: 5px;
