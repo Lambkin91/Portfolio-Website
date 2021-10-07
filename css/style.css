@@ -135,6 +135,7 @@ a:active {
 header {
   background-color: #f0e5e5;
   text-align: center;
+  display: inline-block;
   padding-top: 10px;
   padding-bottom: 15px;
   border-bottom: 3px solid #2443C;
