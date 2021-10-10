@@ -10,8 +10,9 @@ Tertiary Color (Pink): #f0e5e5
 }
 
 .container {
-  padding: 0 20px;
-  width: auto;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
@@ -79,15 +80,17 @@ a:active {
   background-color: #24443C;
   color: #ffffff;
   font-weight: 400;
+  text-decoration: none;
   padding: 10px;
-  border-radius: 0px;
-  border-bottom: 0px;
-  transition: 0.2s background-color;
+  border-radius: 3px;
+  border-bottom: 2px solid #ffffff;
+  transition: 0.2s opacity;
 }
 
 .button:hover {
   background-color: #000;
   text-decoration: none;
+  opacity: 0.8;
 }
 
 .button.contact {
@@ -116,7 +119,7 @@ a:active {
   display: table;
 }
 
-#work .row {
+#work.row {
   padding-bottom: 25px;
 }
 
@@ -126,6 +129,11 @@ a:active {
   padding: 20px 0;
   display: inline-block;
   width: 100%;
+  text-align: center;
+}
+
+#hero span {
+  display: block;
 }
 
 #hero h1 {
@@ -193,4 +201,127 @@ nav > ul > li > a {
 }
 .social {
   max-width: 55px;
+}
+
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 10px 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+.col-lg-6 {
+   width: 40%;
+ }
+ .col-lg-5 {
+   width: 15%;
+ }
+ .container {
+   max-width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ [class*="col-"] {
+   float: left;
+   padding-left: 10px;
+ }
+ .row::after {
+   content: "";
+   clear: both;
+   display: table;
+ }
+}
+
+
+
+
+
+
+
+
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+}
+
+.col-lg-6 {
+   width: 40%;
+ }
+ .col-lg-5 {
+   width: 15%;
+ }
+ .container {
+   max-width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ [class*="col-"] {
+   float: left;
+   padding-left: 10px;
+ }
+ .row::after {
+   content: "";
+   clear: both;
+   display: table;
+ }
+}
+
+
+
+
+
+
+/* ==============================
+Animation
+================================= */
+@keyframes color-change {
+  0% {fill: #FCF661;}
+  50% {fill: #fffcb0;}
+  100% {fill: #ffffff;}
+}
+
+.bulb {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
 }
