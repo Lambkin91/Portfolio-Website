@@ -15,16 +15,19 @@
 <body>
     <header>
         <nav>
-            <div>
-                <a href="index.html">Carina Obster</a>
+            <div class="logo">
+                <a href="index.html" id="logo">Carina Obster</a>
             </div>
-            <div>
+            <div id="nav_menu">
                 <a href="index.html">Work</a>
                 <a href="about.html">About</a>
-                <a href="#contact"onclick="menuToggle()>Contact</a>
-                <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                <a href="#contact">Contact</a>
             </div>
-
+            <div id="burger_butt" onclick="burgerMenu();">
+                <div id="line_one"></div>
+                <div id="line_two"></div>
+                <div id="line_three"></div>
+            </div>
         </nav>
     </header>
 
@@ -161,10 +164,7 @@
         </div>
     </footer>
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="javascript/script.js"></script>
 
 
